@@ -1,0 +1,116 @@
+.App {
+  font-family: "Inter var", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 1 1 0%;
+  overflow: auto;
+}
+
+.swapContainer {
+  max-width: 35rem;
+  width: 90%;
+}
+
+.swapButton {
+  cursor: pointer;
+  user-select: none;
+  font-size: 1rem;
+  background-color: rgb(47, 128, 237);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  outline: none;
+  max-width: 20rem;
+}
+
+.inputBox {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.25rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(225, 225, 225);
+  border-image: initial;
+}
+
+.inputTopBar {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(115, 115, 115);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  flex-flow: row nowrap;
+  padding: 0.75rem 1rem;
+}
+
+.inputLabel {
+  width: 0px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-align: left;
+}
+
+.inputBalance {
+  color: rgb(115, 115, 115);
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.inputBottom {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  padding: 0.25rem 0.85rem 0.75rem;
+}
+
+.inputNumber {
+  color: rgb(1, 1, 1);
+  width: 0px;
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  flex: 1 1 auto;
+}
+
+/* .inputBottom input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 11px system-ui;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+} */
